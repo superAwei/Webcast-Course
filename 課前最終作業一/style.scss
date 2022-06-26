@@ -1,0 +1,182 @@
+main{
+    padding: 40px;
+}
+
+.layout{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+// 共用字體
+.font-24{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.font-20{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+  
+.personal_file{
+    .name{
+        display: block;
+        font-size: 80px;
+        border-bottom: 1px solid black;
+        padding-bottom: 24px;
+    }
+    .personal＿photo{
+        width: 324px;
+        height: 324px;
+        padding: 48px 0px;
+    }
+}
+
+h2{
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+    span{
+        display: inline-block;
+        font-size: 24px;
+        color: #A00404;
+        margin-left: 16px;
+    }
+    
+}
+
+.personal_info{
+    margin-bottom: 72px;
+    .info_item{
+        margin-bottom: 24px;
+    }
+    ul{
+        margin-top: 16px;
+        li{
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 1.5;
+        }
+    }
+}
+
+.education{
+    margin-bottom: 72px;
+    ul{
+        margin-top: 16px;
+        li{
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 1.5;
+            padding-bottom: 24px;
+        }
+    }
+}
+
+.skill{
+    background-color: #415165;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    h2{
+        text-align: center;
+        border-bottom: 1px solid white;
+        width: 996px;
+        margin: 0 auto;
+        span{
+           color: #fff;
+        }
+    }
+    
+    ul{
+        display: inline-block;
+        margin: 0 auto;
+        border-left: 1px solid #fff;
+        text-align: left;
+        padding-left: 24px;
+        margin-top: 40px;
+        margin-bottom: 52px;
+        li{
+            font-size: 24px;
+            padding-bottom: 20px;
+            &:last-child{
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.work_experience{
+    ul{
+        padding-left: 24px;
+        border-left: 1px solid #96A9C4;
+        margin-left: 24px;
+      li{
+        margin-bottom: 32px;
+        &:last-child{
+            margin-bottom: 32px;
+        }
+      }
+        h3{
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .Hexagon_logo{
+            width: 90px;
+            height: 67px;
+            margin-bottom: 8px;
+        }
+        .simtree_logo{
+            width: 72px;
+            height: 72px;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+.contact{
+    background-color: #415165;
+    padding: 32px 48px;
+    .layout{
+       text-align: center;
+       h2{
+         font-size: 32px;
+         color: #fff;
+         padding-bottom: 16px;
+         border-bottom: 1px solid #fff;
+         span{
+            font-size: 24px;
+            color: #fff;
+         }
+       }
+       ul{
+        li{
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #fff;
+            padding-bottom: 16px;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+       }
+       .social{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 48px;
+            height: 48px;
+            margin: 0px 12px;
+        }
+    }
+    }
+    
+}
+
+
+
