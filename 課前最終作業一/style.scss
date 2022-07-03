@@ -1,17 +1,19 @@
+body{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+}
 main{
-    padding: 40px;
+   padding: 0 15px;
 }
 
 .layout{
     max-width:1200px;
+    padding: 40px;
     margin: 0 auto;
 }
 
 // 共用字體
-.font-24{
-    font-size: 24px;
-    line-height: 1.5;
-}
 .font-20{
     font-size: 20px;
     line-height: 1.5;
@@ -20,7 +22,6 @@ main{
   
 .personal_file{
     .name{
-        display: block;
         font-size: 80px;
         border-bottom: 1px solid black;
         padding-bottom: 24px;
@@ -35,7 +36,7 @@ main{
 h2{
     font-size: 32px;
     line-height: 1.5;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border-bottom: 1px solid black;
     span{
         display: inline-block;
@@ -78,7 +79,7 @@ h2{
     background-color: #415165;
     color: white;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 80px;
     h2{
@@ -110,6 +111,9 @@ h2{
 }
 
 .work_experience{
+    h2{
+        padding-bottom: 8px;
+    }
     ul{
         padding-left: 24px;
         border-left: 1px solid #96A9C4;
@@ -168,11 +172,20 @@ h2{
        .social{
         display: flex;
         justify-content: center;
-        img{
-            width: 48px;
-            height: 48px;
-            margin: 0px 12px;
+        li{
+            img{
+                width: 48px;
+                height: 48px;
+                margin: 0px 12px;
+                opacity: 0.3;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            
         }
+        
+        
     }
     }
     

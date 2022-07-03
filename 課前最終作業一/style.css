@@ -1,16 +1,18 @@
 @charset "UTF-8";
+body {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 main {
-  padding: 40px;
+  padding: 0 15px;
 }
 
 .layout {
   max-width: 1200px;
+  padding: 40px;
   margin: 0 auto;
-}
-
-.font-24 {
-  font-size: 24px;
-  line-height: 1.5;
 }
 
 .font-20 {
@@ -20,7 +22,6 @@ main {
 }
 
 .personal_file .name {
-  display: block;
   font-size: 80px;
   border-bottom: 1px solid black;
   padding-bottom: 24px;
@@ -35,7 +36,7 @@ main {
 h2 {
   font-size: 32px;
   line-height: 1.5;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   border-bottom: 1px solid black;
 }
 
@@ -85,9 +86,9 @@ h2 span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -123,6 +124,10 @@ h2 span {
 
 .skill ul li:last-child {
   padding-bottom: 0;
+}
+
+.work_experience h2 {
+  padding-bottom: 8px;
 }
 
 .work_experience ul {
@@ -199,9 +204,14 @@ h2 span {
           justify-content: center;
 }
 
-.contact .layout .social img {
+.contact .layout .social li img {
   width: 48px;
   height: 48px;
   margin: 0px 12px;
+  opacity: 0.3;
+}
+
+.contact .layout .social li img:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
